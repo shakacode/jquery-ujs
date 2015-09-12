@@ -2,12 +2,13 @@ Notes on the npm supporting fork
 =======================================
 We forked from the official version at https://github.com/rails/jquery-ujs to support npm.
 
-* Reasons: https://github.com/rails/jquery-ujs/issues/423 and https://github.com/rails/jquery-ujs/pull/380
+* Reasons: [rails/jquery-ujs/issues/423](https://github.com/rails/jquery-ujs/issues/423) and 
+  [rails/jquery-ujs/pull/380](https://github.com/rails/jquery-ujs/pull/380)
 * We'll do our best to keep the npm version consistent with the version used by jquery-ujs.
 * There should be 2 files that differ: Addition of a `package.json` and changes ONLY to the top of the README.md
 * For advice on how to use the npm version with Rails and Webpack, see 
-  https://github.com/shakacode/react-webpack-rails-tutorial/pull/88 and 
-  http://forum.railsonmaui.com/t/considerations-for-jquery-with-rails-and-webpack/344.
+  [shakacode/react-webpack-rails-tutorial/pull/88](https://github.com/shakacode/react-webpack-rails-tutorial/pull/88) and 
+  [forum article on considerations for jquery with Rails and webpack](http://forum.railsonmaui.com/t/considerations-for-jquery-with-rails-and-webpack/344).
 * Publishing to npm:
 
 ```bash
