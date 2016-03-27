@@ -9,15 +9,6 @@ We forked from the official version at https://github.com/rails/jquery-ujs to su
 * For advice on how to use the npm version with Rails and Webpack, see 
   [shakacode/react-webpack-rails-tutorial/pull/88](https://github.com/shakacode/react-webpack-rails-tutorial/pull/88) and 
   [forum article on considerations for jquery with Rails and webpack](http://forum.railsonmaui.com/t/considerations-for-jquery-with-rails-and-webpack/344).
-* Publishing to npm:
-
-```bash
-   git pull https://github.com/rails/jquery-ujs.git master
-   vim package.json # updating version number
-   git commit -am 'the version number'
-   git push --follow-tags origin master
-   npm publish
-```
 
 Unobtrusive scripting adapter for jQuery
 ========================================
